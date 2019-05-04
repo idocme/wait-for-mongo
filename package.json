@@ -1,6 +1,6 @@
 {
   "name": "wait-for-mongodb-slim",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simply waits for a connection to mongodb",
   "main": "index.js",
   "scripts": {

@@ -5,6 +5,10 @@ const argv = require('yargs').argv
 
 
 const uri = argv.uri;
+if (!uri) {
+  console.log("######################### ERROR #################");
+  console.console.log("Please make sure you have provided the MONGO_URI: mongodb://yourUri:yourport to the environment variables.");
+}
 let delay = 15000;
 if (argv.t || argv.time) {
     delay = argv.t*1000;
