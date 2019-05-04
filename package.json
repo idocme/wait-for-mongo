@@ -1,6 +1,6 @@
 {
-  "name": "wait-for-mongodb",
-  "version": "1.0.0",
+  "name": "wait-for-mongodb-slim",
+  "version": "1.0.2",
   "description": "Simply waits for a connection to mongodb",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,8 @@
   "dependencies": {
     "mongoose": "^5.5.5",
     "yargs": "^13.2.2"
+  },  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idocme/wait-for-mongo.git"
   }
 }

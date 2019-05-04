@@ -2,6 +2,11 @@
 
 Just pass the full uri of the mongodb connection, set the time or use the default.
 
+# Install
+```
+npm install -g wait-for-mongodb-slim
+```
+
 # Usage
 ```
 wait-for-mongo --uri mongodb://usr:pwd@localhost:27017/nameOfDB --t 2
